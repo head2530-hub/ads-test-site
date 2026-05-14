@@ -6,23 +6,32 @@
     <title>Hello World</title>
     
     <!-- CSS 스타일시트 로드 -->
-    <link rel="stylesheet" href="https://lina2.s3.ap-northeast-1.amazonaws.com/dev/sdk/inventory/css/style.css">
+    <!--<link rel="stylesheet" href="https://lina2.s3.ap-northeast-1.amazonaws.com/dev/sdk/inventory/css/style.css">
+     <script async src="https://lina2.s3.ap-northeast-1.amazonaws.com/dev/sdk/loader.js?inventory_id=1cf25c05-0fd7-4114-934e-c0cd353739b2" data-inventory-id="1cf25c05-0fd7-4114-934e-c0cd353739b2"></script>-->
+  <link rel="stylesheet" href="https://lina2.s3.ap-northeast-1.amazonaws.com/dev/sdk/inventory/css/style.css">
+  <script async src="https://lina2.s3.ap-northeast-1.amazonaws.com/dev/sdk/loader.js?inventory_id=16a81faa-f20c-4f7f-a084-f9deedf16559" data-inventory-id="16a81faa-f20c-4f7f-a084-f9deedf16559"></script>
     
-    <!-- 비동기 스크립트 로드 -->
-    <script async src="https://lina2.s3.ap-northeast-1.amazonaws.com/dev/sdk/loader.js?inventory_id=1cf25c05-0fd7-4114-934e-c0cd353739b2" data-inventory-id="1cf25c05-0fd7-4114-934e-c0cd353739b2"></script>
+    
+   
 </head>
 <body>
 
     <h1>Hello World</h1>
-
+<lina-ads
+  userId="testuser_video_01"
+  userOrbVerified
+  publisherSetup='{"appKey": "your-app-key"}'
+  adConfig='{"adDisplayId": "16a81faa-f20c-4f7f-a084-f9deedf16559"}'
+  pointBtnUrl="your-pointbutton-url"
+></lina-ads>
     <!-- 커스텀 광고 요소 -->
-    <lina-ads
+<!--    <lina-ads
         userId="testuser_banner_01"
         userOrbVerified
         publisherSetup='{"appKey": "your-app-key"}'
         adConfig='{"adDisplayId": "1cf25c05-0fd7-4114-934e-c0cd353739b2"}'
         pointBtnUrl="your-pointbutton-url"
     ></lina-ads>
-
+-->
 </body>
 </html>
