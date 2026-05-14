@@ -1,15 +1,28 @@
-<h1>Hello World</h1>
- <head>
-<link rel="stylesheet" href="https://lina2.s3.ap-northeast-1.amazonaws.com/dev/sdk/inventory/css/style.css">
-<script async src="https://lina2.s3.ap-northeast-1.amazonaws.com/dev/sdk/loader.js?inventory_id=1cf25c05-0fd7-4114-934e-c0cd353739b2" data-inventory-id="1cf25c05-0fd7-4114-934e-c0cd353739b2"></script>   
- </head>
-
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello World</title>
+    
+    <!-- CSS 스타일시트 로드 -->
+    <link rel="stylesheet" href="https://lina2.s3.ap-northeast-1.amazonaws.com/dev/sdk/inventory/css/style.css">
+    
+    <!-- 비동기 스크립트 로드 -->
+    <script async src="https://lina2.s3.ap-northeast-1.amazonaws.com/dev/sdk/loader.js?inventory_id=1cf25c05-0fd7-4114-934e-c0cd353739b2" data-inventory-id="1cf25c05-0fd7-4114-934e-c0cd353739b2"></script>
+</head>
 <body>
-<lina-ads
-  userId="testuser_banner_01"
-  userOrbVerified
-  publisherSetup='{"appKey": "your-app-key"}'
-  adConfig='{"adDisplayId": "1cf25c05-0fd7-4114-934e-c0cd353739b2"}'
-  pointBtnUrl="your-pointbutton-url"
-></lina-ads>
+
+    <h1>Hello World</h1>
+
+    <!-- 커스텀 광고 요소 -->
+    <lina-ads
+        userId="testuser_banner_01"
+        userOrbVerified
+        publisherSetup='{"appKey": "your-app-key"}'
+        adConfig='{"adDisplayId": "1cf25c05-0fd7-4114-934e-c0cd353739b2"}'
+        pointBtnUrl="your-pointbutton-url"
+    ></lina-ads>
+
 </body>
+</html>
