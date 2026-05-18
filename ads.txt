@@ -1,1 +1,1 @@
-dev-space.innopoc.com, 56b4e0e3-8629-4379-8786-df7163ec70cc, DIRECT
+lina2-stg-space.innopoc.com, 734d0b64-5f5d-45b5-9221-0c3b04954364, DIRECT
